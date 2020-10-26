@@ -1,0 +1,53 @@
+.App {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+.watchlist span {
+    border: 2px solid grey;
+    border-radius: 10px;
+}
+
+.watchlist a {
+    text-decoration: none;
+    color: black;
+}
+
+.watchlist span:hover #star {
+    color: white;
+}
+
+.watchlist span:hover {
+    background-color: rgba(0, 38, 255, 0.726);
+}
+
+.nav-option {
+    margin-left: 10px;
+}
+
+#linebar {
+    background-color: rgb(47, 0, 255);
+    margin-top: 0;
+    margin-bottom: 1em;
+    margin-left: auto;
+    margin-right: auto;
+    border-style: inset;
+    height: 1px;
+}
+
+.option-content p {
+    margin-bottom: 0;
+}
+
+#stockLine {
+    height: 2px;
+    margin-top: 1px;
+    margin-left: auto;
+    margin-right: auto;
+    border-style: inset;
+}
+
+.detail-content {
+    font-size: 15px;
+}
